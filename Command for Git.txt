@@ -1,0 +1,26 @@
+Command for Git
+
+1. git status :-> it's use for check that a directory is "git repository" or Not !
+2. git init :-> it's use for initialize a directory(folder) into "git repository" !
+3. git add --a :-> it's use for send all file's in "staging area" !
+4. git commit  :-> it's use for "commit" the file's !
+5. git commit -m "message" :-> it's use for give a "message of commit" !
+6. git log :-> it's use for check which files are "commited" !
+7. git config --global user.name "namevalue" :-> it's use for set same name(global) all git repo folder !
+8. git config --global user.name :-> it's use for check which global name is set on all git repo folder !
+9. git config --global user.email "emailidvalue" :-> it's use for set same email(global) all git repo folder !
+10. git config --global user.email :-> it's use for check which global ema is set on all git repo folder !
+11. git config  user.name :-> it's use for check which username is set a folder(local) on git repo folder !
+12. git config  user.email :-> it's use for check which email is set a folder(local) on git repo folder !
+13. git config  user.name "namevalue" :-> it's use for set username on a folder(local) on git repo folder !
+14. git config  user.email "emailvalue" :-> it's use for set email on a folder(local) on git repo folder !
+15. git config  user.name  "rename name/email" :-> it's use for rename repo_name/email on local folder !
+16. git config --global  user.name  "rename name/email" :-> it's use for rename repo_name/email on global folder !
+note :-> if we set a name/email global and not give a local name then global name/email show on the folder !
+17. git add "filename" :-> it's use for commit only one file(which name is given) !
+18. rm -rf .git :-> it's use for remove git repo(.git) and make a normal folder and delete it's content !
+19. git clone "url" :->it's fetch all data from url which url given !
+20. git clode "url" "name" :-> it's use for give a name of repo !
+21. pwd(linux cmd) :-> persent working directory !
+22. ls(linux) :-> listing all content on current folder !
+23. 
