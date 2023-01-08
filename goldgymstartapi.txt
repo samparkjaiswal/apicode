@@ -89,3 +89,50 @@ a. URL: http://194.180.176.245/goldgym/gold-gym/public/api/user-steps-leaderboar
 
 22. when i go in activity on monthly option then hit api
 a. http://194.180.176.245/goldgym/gold-gym/public/api/user-steps-leaderboard?end_date=2022-10-14&start_date=2022-10-01
+
+23. when i select the gym center then  api hit 
+a.http://194.180.176.245/goldgym/gold-gym/public/api/storeUserInfo
+
+24. after selection gym_center when i click buy and select package then hit api
+a.http://194.180.176.245/goldgym/gold-gym/public/api/gymPackages/1145/1/0/0(gym_id/is_paid/show_package/is_renewable?)
+
+//read
+
+25. when i select studio_center and after click buy now i select a package and click on promocode then hit api
+a. http://194.180.176.245/goldgym/gold-gym/public/api/getcouponlist?category_id=29
+
+26. when click on one promocode from multiple then hit api 
+a. http://194.180.176.245/goldgym/gold-gym/public/api/applycoupon
+
+27. when i click on your personal Trainer at Your Home then hit api
+a.http://194.180.176.245/goldgym/gold-gym/public/api/getCov19TrainerBookDecl
+
+28.when i select a option from health goal then hit api
+a.http://194.180.176.245/goldgym/gold-gym/public/api/getHealthGoalList
+
+29. when i select helth goal and click on free session and one day session then hit api
+a.http://194.180.176.245/goldgym/gold-gym/public/api/getGymTrainerFreeAndOneDaySlots?date=2022-10-15&day=6&slot_type=0
+
+30. when i click multiple session then hit api 
+a.http://194.180.176.245/goldgym/gold-gym/public/api/getGymTrainerList?page=1
+
+31.when i select helth goal and click on free session and feel date and select time and click on book now then it hit api for take in input address
+a. http://194.180.176.245/goldgym/gold-gym/public/api/getUserAddress
+
+32. when i feel the address and then click submit/booknow then hit api 
+a. http://194.180.176.245/goldgym/gold-gym/public/api/storeUserAddress
+
+33. when i select helth goal and click on one day session and select date 
+a.
+
+
+34. when i select helth goal and click on multiple session and it show multiple trainer then i click on one trainer details and after select date and click book 
+a. http://194.180.176.245/goldgym/gold-gym/public/api/getGymTrainerPackages?gym_id=1204 
+
+35. after (34) when i click the 2nd trainer details it's show no slot available then hit api
+a.  http://194.180.176.245/goldgym/gold-gym/public/api/getGymTrainerSlots?date=2022-10-15&day=6&trainer_id=1245
+
+36. when i click upcomming booking then hit api 
+a. http://194.180.176.245/goldgym/gold-gym/public/api/viewMoreClasses?page=1&type=0 
+
+37. 
